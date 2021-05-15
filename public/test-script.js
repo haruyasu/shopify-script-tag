@@ -17,7 +17,7 @@ function handler() {
   const makeApp = (products) => {
     const bestSellerContainer = $(
       `<div style="overflow-y: scroll;">
-            <h3>Our Best Sellers</h3>
+            <h3>売上トップ</h3>
             ${products
               .map((item) => {
                 return `
@@ -47,7 +47,7 @@ function handler() {
     const bestSellerButton = $('<img />')
       .attr(
         'src',
-        'https://cdn.shopify.com/s/files/1/0325/3174/2765/files/bestseller-button-trans.png?v=1584741923'
+        'https://e7b6f1e9efa4.ngrok.io/top.png'
       )
       .css({
         position: 'fixed',
